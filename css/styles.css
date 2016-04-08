@@ -1,0 +1,64 @@
+
+.resultRight {
+  display: none;
+}
+
+.pizzaTime {
+  background-image: url('../img/thepizza.jpg');
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+}
+
+.resultRight {
+  padding-top: 40px;
+  padding-left: 40px;
+  min-height: 500px;
+}
+
+.buildingPizza {
+  min-height: 500px;
+}
+
+.hero {
+  background-color: #E1E0DC;
+  text-align: center;
+}
+
+.hero h1 {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: #B44418;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 5em;
+  letter-spacing: 5px;
+}
+
+.pizzaFormContainer {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-right: 1px solid #E1E0DC;
+  min-height: 1000px;
+}
+
+h3 {
+  font-size: 14pt;
+  font-weight: 200;
+}
+
+p.formQuestions {
+  font-weight: 500;
+  padding-top: 20px;
+}
+
+.btnStyle {
+  margin-top: 30px;
+  width: 200px;
+  height: 40px;
+  font-size: 1em;
+  border-radius: 3px;
+  color: #E1E0DC;
+  background-color: #586576;
+}

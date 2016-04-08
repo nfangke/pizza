@@ -12,19 +12,18 @@
     <div class="container-fluid">
 
       <div class="row hero">
-        <h1>ORDER A PIZZA</h1>
+        <h1>PIZZA</h1>
       </div>
 
       <div class="row">
-        <div class="col-sm-8 buildingPizza">
-        </div>
 
-        <div class="col-sm-4 pizzaForm">
+
+        <div class="col-sm-4 pizzaFormContainer">
           <form id="pizzaOrder">
 
             <h3>Select your size and toppings</h3>
 
-            <p>Select a size:</p>
+            <p class="formQuestions">Select a size:</p>
             <div class="radio">
               <label>
                 <input type="radio" name="pizzaSize" value=0>
@@ -42,7 +41,7 @@
               </label>
             </div>
 
-            <p>Choose a Vegetable Topping:</p>
+            <p class="formQuestions">Choose a Vegetable Topping:</p>
             <select class="form-control" id="topping1">
               <option value='' disabled selected>Click to select</option>
               <option value=1>Spinach</option>
@@ -50,7 +49,8 @@
               <option value=1>Tomatos</option>
             </select>
 
-            <p>Choose a Meat Topping:</p>
+
+            <p class="formQuestions">Choose a Meat Topping:</p>
             <select class="form-control" id="topping2">
               <option value='' disabled selected>Click to select</option>
               <option value=2>Pepperoni</option>
@@ -58,14 +58,22 @@
               <option value=2>Anchovies</option>
             </select>
 
-            <button type="submit" class="btn btn-lg" id="submit">Submit</button>
+
+            <button type="submit" class="btn btn-lg btnStyle" id="submit">CALCULATE PRICE</button>
 
           </form>
+
+        </div>
+
+        <div class="col-sm-8 resultRight">
           <div class="priceResult">
             <p>TOTAL:</p>
             <h2></h2>
           </div>
+          <div class="buildingPizza">
+          </div>
         </div>
+
       </div>
 
     </div>

@@ -17,10 +17,21 @@ Pizza.prototype.calcPrice = function() {
 
 
 //UI Logic
+
 $(document).ready(function() {
+  $("html").hide().fadeIn(1500);
+
+  $("label.revealImage1").click(function() {
+    $(".formQuestions").css("background-color", "green");
+  })
+
+
+
   $("form#pizzaOrder").submit(function(event) {
 
     event.preventDefault();
+
+
 
     var inputSize = $("input:radio[name=pizzaSize]:checked").val();
     var inputTopping1 = $("#topping1").val();
@@ -31,6 +42,10 @@ $(document).ready(function() {
     console.log(newPizza);
 
     newPizza.calcPrice();
+
+    $(".buildingPizza").addClass("pizzaTime");
+
+    $(".resultRight").hide().fadeIn(1800);
 
     $("h2").text("$" + price);
 
