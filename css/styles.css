@@ -3,17 +3,34 @@
   display: none;
 }
 
+/*.myOrderSummary {
+  display: none;
+  background-color: #D1D0D7;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.btnStyleOrder {
+  margin-bottom: 25px;
+  width: 150px;
+  height: 35px;
+  font-size: .75em;
+  border-radius: 3px;
+  color: #E1E0DC;
+  background-color: #586576;
+}*/
+
 .pizzaTime {
   background-image: url('../img/thepizza.jpg');
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 70%;
   background-position: center;
 }
 
 .resultRight {
   padding-top: 40px;
   padding-left: 40px;
-  min-height: 500px;
+  min-height: 800px;
 }
 
 .buildingPizza {

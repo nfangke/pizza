@@ -10,13 +10,23 @@
   </head>
   <body>
     <div class="container-fluid">
-
-      <div class="row hero">
-        <h1>PIZZA</h1>
-      </div>
+      <!-- <div class="row myOrderSummary">
+        <div class="col-sm-3">
+          <h4>ORDER SUMMARY</h4>
+        </div>
+        <div class="col-sm-6 myPizza1">
+          <ul id="firstPizza">
+          </ul>
+        </div>
+        <div class="col-sm-3 myPizza2">
+        </div>
+        <div class="col-sm-3 myOptions">
+          <button type="submit" class="btn btn-lg btnStyleOrder" id="addAnotherPizza">ADD ANOTHER PIZZA</button>
+          <button type="submit" class="btn btn-lg btnStyleOrder" id="addAnotherPizza">PLACE ORDER</button>
+        </div>
+      </div> -->
 
       <div class="row">
-
 
         <div class="col-sm-4 pizzaFormContainer">
           <form id="pizzaOrder">
@@ -43,7 +53,7 @@
 
             <p class="formQuestions">Choose a Vegetable Topping:</p>
             <select class="form-control" id="topping1">
-              <option value='' disabled selected>Click to select</option>
+              <option value=0>Click to select</option>
               <option value=1>Spinach</option>
               <option value=1>Mushrooms</option>
               <option value=1>Tomatos</option>
@@ -52,7 +62,7 @@
 
             <p class="formQuestions">Choose a Meat Topping:</p>
             <select class="form-control" id="topping2">
-              <option value='' disabled selected>Click to select</option>
+              <option value=0>Click to select</option>
               <option value=2>Pepperoni</option>
               <option value=2>Chicken</option>
               <option value=2>Anchovies</option>
